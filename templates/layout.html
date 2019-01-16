@@ -11,7 +11,7 @@
 
  <link rel="search"
        type="application/opensearchdescription+xml"
-       href="http://www.sagemath.org/res/sage-search.xml"
+       href="{{ config.PROJECT.url }}/res/sage-search.xml"
        title="Search sagemath.org" />
  <link href='{{ "res/sage.css"|prefix }}' type="text/css" rel="stylesheet" />
  <link rel="shortcut icon" href="{{ 'pix/sageicon.png'|prefix }}" type="image/x-icon" />
@@ -23,8 +23,8 @@
 
  <meta property="og:title" content="{{ sage }} Mathematical Software System - Sage"/>
  <meta property="og:type" content="website"/>
- <meta property="og:url" content="http://www.sagemath.org/"/>
- <meta property="og:image" content="http://sagemath.org/pix/sage_logo_new_l_hc.png"/>
+ <meta property="og:url" content="{{ config.PROJECT.url }}"/>
+ <meta property="og:image" content="{{ config.PROJECT.url }}/pix/sage_logo_new_l_hc.png"/>
  <meta property="og:site_name" content="{{ sage }} Mathematical Software System"/>
  <meta property="og:description" content="{{ sage }} is a free and open-source mathematical software system."/>
 {%- block header -%}
@@ -257,7 +257,7 @@ or
 </td>
 <td></td>
 <td align="left" style="padding-bottom: 0px; vertical-align: center; horizontal-align: center;">
-<g:plusone size="medium" href="http://sagemath.org"></g:plusone>
+  <g:plusone size="medium" href="{{ config.PROJECT.url }}"></g:plusone>
 </td>
 <td></td>
 <td>
@@ -266,7 +266,7 @@ or
 </td>
 <td></td>
 <td>
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://sagemath.org" data-text="I like @sagemath" data-related="sagemath">Tweet</a>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ config.PROJECT.url }}" data-text="I like @sagemath" data-related="sagemath">Tweet</a>
 </td>
 </tr>
 </table>
