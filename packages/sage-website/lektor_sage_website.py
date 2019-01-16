@@ -41,7 +41,10 @@ class SageWebsitePlugin(Plugin):
     name = 'sage-website'
     description = u'Legacy configuration for Sage website'
 
-    _confs = {'config': {}}
+    _confs = {
+        'config': {},
+        'packages': {}
+    }
 
     def on_setup_env(self, **extra):
         """Load configs and set up the build environment."""
@@ -57,6 +60,10 @@ class SageWebsitePlugin(Plugin):
         # Insert additional Jinja2 globals from config.yaml
         # This is possibly dangerous and in the future should go away.
         self.env.jinja_env.globals.update(self._confs['config'])
+        self.env.jinja_env.globals['packages'] = self._confs['packages']
+        self.env.jinja_env.globals['spkgs'] = sorted(
+                self._confs['packages'].get('spkg', {}).values(),
+                key=lambda x: x['name'].lower())
 
         # Insert a few additional Jinja filters that are used by the old
         # templates
