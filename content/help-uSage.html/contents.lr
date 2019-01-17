@@ -1,0 +1,50 @@
+title: u{{ sage }} User Group
+---
+content:
+
+<div class="narrow">
+ <h1>{{ title }}</h1>
+
+ <div style="font-weight:bold" class="bodypadding">
+   u{{ sage }} meetings are gatherings of people interested in {{ sage }}
+   and related (read: included) open-source software systems.
+ </div>
+
+ <div class="bodypadding"><a href="http://wiki.sagemath.org/uSage">Overview Wiki Page</a></div>
+
+<iframe style="border: 0; margin: 15px 0;"
+ src="http://mapsengine.google.com/map/embed?mid=z6cQe-9CZhHU.k1Ln9-DeTy9Y"
+ width="100%" height="480">
+</iframe> 
+
+<table class="bodypadding">
+<tr><th>Location</th><th>Contact</th><th>Website</th> </tr>
+<tr>
+<td>Paris</td>
+<td><a href="mailto:Nicolas.Thiery@u-psud.fr">N. Thiéry</a></td>
+<td><a href="http://wiki.sagemath.org/GroupeUtilisateursParis">page</a></td>
+</tr>
+
+<tr>
+  <td>Vienna</td>
+  <td><a href="mailto:harald+smo@schil.ly">Harald Schilly</a></td>
+  <td>
+      <a href="http://wiki.sagemath.org/uSage/Vienna">page</a>
+      <br>
+      <a href="https://www.meetup.com/SageMath-Vienna/">Meetup.com</a>
+  </td>
+</tr>
+<tr>
+  <td>Bristol</td>
+  <td>J. Cremona</td>
+  <td><a href="http://wiki.sagemath.org/uSage/Bristol">page</a></td>
+</tr>
+<tr>
+  <td>Seattle</td>
+  <td></td>
+  <td><a href="http://wiki.sagemath.org/uSage/Seattle">page</a></td>
+</tr>
+
+</table>
+
+</div>

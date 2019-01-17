@@ -1,0 +1,95 @@
+title: Tour
+---
+content:
+
+ <h1 class="narrow">{{ sage }} Feature Tour</h1>
+
+ <div class="narrow txt">
+{{ sage }}
+is built out of nearly 
+<a href="./links-components.html">100 open-source packages</a> and features a unified
+interface.
+{{ sage }} can be used to study elementary and advanced, pure
+and applied mathematics. This includes a huge range of mathematics,
+including basic algebra, calculus, elementary to very advanced number
+theory, cryptography, numerical computation, commutative algebra,
+group theory, combinatorics, graph theory, exact linear algebra and
+much more.
+It combines 
+<a href="./links-components.html">various software packages</a> 
+and seamlessly
+integrates their functionality into a common experience.  It is 
+<a href="./library-stories.html">well-suited</a>
+for education and research.
+</div>
+
+ <div class="narrow txt">
+The user interface is a
+notebook in a web browser or the command line. Using the notebook,
+{{ sage }} connects either locally to your own {{ sage }} installation or to a
+{{ sage }} server on the network. Inside the {{ sage }} notebook you can create
+embedded graphics, beautifully typeset mathematical expressions, add
+and delete input, and share your work across the network.
+ </div>
+
+ <div class="narrow txt">
+  The following showcase presents some of {{ sage }}'s capabilities, screenshots and gives you an
+  overall impression of what {{ sage }} is. The examples show the lines of code in {{ sage }} on the left side,
+  accompanied by an explanation on the right. They only show the very basic concepts of how {{ sage }}
+  works. Please refer to the <a href="./help.html">documentation material</a> for more detailed
+  explanations or <a href="./library.html">visit the library</a> to see {{ sage }} in action.
+ </div>
+
+ <div class="narrow txt">
+  <ul>
+
+<li><a href="./help-video.html"><strong>Video Introduction</strong> to {{ sage }} by William Stein</a> &mdash; first video of several explaining {{ sage }}, better than a bunch of screenshots...</a></li>
+
+   <li><a href="./tour-quickstart.html">Quickstart with {{ sage }}</a> — explains basic concepts and
+   gives you an impression of what {{ sage }} is.</li>
+
+   <li><a href="./tour-graphics.html">{{ sage }} Graphics</a> — shows examples of useful plots and visualizations.</li>
+
+   <li><a href="./tour-research.html">{{ sage }} in Research</a> — presents features useful for higher
+   mathematics.</li>
+ <li><a href="./tour-benchmarks.html">{{ sage }} Benchmarks</a> &mdash; compares speed or memory usage of {{ sage }} with other systems.</li>
+  </ul>
+ </div>
+
+ <h3 class="narrow">Documentation: <a href="http://doc.sagemath.org/html/en/tutorial/tour.html">A Guided Tour</a></h3>
+
+ <div class="narrow txt">
+   <ul>
+   <li><a href="http://doc.sagemath.org/html/en/tutorial/interactive_shell.html">The interactive Shell</a></li>
+   <li><a href="http://doc.sagemath.org/html/en/tutorial/tour_algebra.html">Basic Algebra and Calculus</a></li>
+   <li><a href="http://doc.sagemath.org/html/en/tutorial/tour_plotting.html">Plotting, 2D and 3D</a></li>
+   <li><a href="http://doc.sagemath.org/html/en/tutorial/tour_rings.html">Basic Rings</a></li>
+   <li><a href="http://doc.sagemath.org/html/en/tutorial/tour_polynomial.html">Univariate and Multivariate Polynomials</a></li>
+   <li><a href="http://doc.sagemath.org/html/en/tutorial/tour_linalg.html">Linear Algebra (Vector, Matrix, ...)</a></li>
+   <li><a href="http://doc.sagemath.org/html/en/tutorial/tour_groups.html">Finite Groups</a></li>
+   <li><a href="http://doc.sagemath.org/html/en/tutorial/tour_advanced.html">Advanced Mathematics in {{ sage }}</a></li>
+   </ul>
+ </div>
+ 
+ <h3 class="narrow">More about {{ sage }}</h3>
+
+ <div class="narrow txt">
+  <ul>
+   <li><a href="./library-stories.html">Testimonials, Success Stories and News</a> — read what
+   others write about {{ sage }}.</li>
+
+   <li><a href="http://www.flickr.com/photos/sagescreenshots/sets/72157603532209437/"
+     >Screenshots</a> — they give an impression how a {{ sage }} notebook looks
+      like.</li>
+
+   <li><a href="http://wiki.sagemath.org/pics">Pictures</a> — collection of images drawn by
+   {{ sage }}.</li>
+
+   <li><a href="http://wiki.sagemath.org/interact">Interact</a> — examples of {{ sage }}'s
+   interactive drawing capabilities.</li>
+  </ul>
+
+  <div class="center">
+   <a href="http://wiki.sagemath.org/pics"><img src="./pix/hypotrochoid.gif" /></a>
+  </div>
+ </div>

@@ -1,0 +1,26 @@
+title: Components
+---
+content:
+
+<h1>Components</h1>
+
+<div class="bodypadding">These software packages are used by {{ sage }}.
+    Go to the <a href="./download-packages.html">Download Packages</a>
+    page to get them if they are not already part of your {{ sage }} installation.
+</div>
+
+<ol>
+{% for spkg in spkgs %}
+<li>
+    {% if spkg.url %}
+    <a href="{{ spkg.url }}">{{ spkg.name }}</a>: {{ spkg.descr }}
+    {% else %}
+    <a title="Website for this package is unavailable"><i>{{ spkg.name }}</i></a>: {{ spkg.descr }}
+    {% endif %}
+</li>
+{% endfor %}
+</ol>
+
+<div class="center">
+    Something missing? <a href="https://github.com/sagemath/website">Make a ticket</a> or a pull request for <a href="https://github.com/sagemath/website/blob/master/conf/packages.yaml">packages.yaml</a>.
+</div>

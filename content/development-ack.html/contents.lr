@@ -1,0 +1,318 @@
+title: Acknowledgment
+---
+content:
+
+ <h1>Acknowledgment to Supporters</h1>
+
+ <div class="txt leftpadding rightpadding">
+  {{ sage }} development has benefited from the financial support of numerous institutions, and the
+  previous and ongoing work of many authors of included components. A list of direct contributors
+  is shown <a href="development-map.html">here with a world map</a> and the history of changes
+  can be seen <a href="{{ 'changelogs/index.html'|prefix }}">here</a>.</div>
+
+ <div class="txt leftpadding rightpadding">
+  <a href="development-prize.html">Annual Spies {{ sage }} Development Prize</a>.
+ </div>
+
+ <h2>Awards</h2>
+
+ <div class="txt center">
+ <a href="http://sagemath.org/files/stein_plaque.jpg">
+  <img src="http://sagemath.org/files/stein_plaque_small.jpg">
+ </a>
+<br/>
+ Jenks Memorial Prize, 2013
+ </div>
+
+ <h2>Financial and infrastructure support</h2>
+
+ <div class="txt leftpadding rightpadding">
+  You can <em><a
+     href=
+     "https://secure.gifts.washington.edu/as_mathematics/gift.asp?page=make&amp;Code=MATSAG">make a
+     <strong>tax-deductible donation</strong> to the {{ sage }} Foundation</a></em> (Check that the
+     selected fund is the &quot;{{ sage }} Foundation&quot;).
+ </div>
+
+ <ul>
+  <li><strong><a
+    href="http://www.enthought.com/">Enthought, Inc.</a></strong> funded {{ sage }} Days 8 in Austin,
+    TX.</li>
+
+  <li>
+    <strong><a href="http://www.google.com/intl/en/corporate/index.html">Google</a></strong> is directly funding
+    <a href="http://sagemath.blogspot.com/2008/04/google-funds-sage.html">work on {{sage}}</a>
+    and we were part of the <a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> since 2012.
+    Past and current GSoC projects can be found at:
+    <a href="https://www.google-melange.com/archive/gsoc/2012/orgs/sage">2012</a>,
+    <a href="https://www.google-melange.com/archive/gsoc/2013/orgs/sage">2013</a>,
+    <a href="https://www.google-melange.com/archive/gsoc/2014/orgs/sagemath">2014</a>,
+    <a href="https://www.google-melange.com/gsoc/org2/google/gsoc2015/sagemath">2015</a>,
+    <a href="https://summerofcode.withgoogle.com/organizations/5443521142063104/">2016</a>,
+    <a href="https://summerofcode.withgoogle.com/archive/2017/organizations/5071296056524800/">2017</a>, and
+    <a href="https://summerofcode.withgoogle.com/organizations/6294052148871168/">2018</a>.
+  </li>
+
+  <li><strong><a
+     href="http://research.microsoft.com/">Microsoft Research</a></strong> is generously funding a
+     native port of {{ sage }} to Microsoft Windows (2008).</li>
+
+  <li>The <strong>Heilbronn Institute and University of Bristol</strong> – <a
+     href="http://www.maths.bris.ac.uk/events/meetings/meeting/index.php?meeting_id=23">{{ sage }} Days 6
+     Workshop (November 10 – 14, 2007)</a></li>
+
+  <li><strong>National Science Foundation</strong>
+    <ul>
+      <li>
+	<a href="http://nsf.gov/awardsearch/showAward.do?AwardNumber=0555776"
+	  >Grant No. 0555776</a> (July 1, 2005 &#8211; May 31, 2007).
+	Explicit Approaches to Modular Forms and Modular Abelian Varieties
+      </li>
+
+      <li>
+	<a href="http://nsf.gov/awardsearch/showAward.do?AwardNumber=0713225"
+	  >Grant No. 0713225</a> (July 15, 2007 &#8211; June 30, 2010).
+	 SAGE: Software for Algebra and Geometry Experimentation (the {{ sage }} Postdoc)
+      </li>
+
+      <li>
+	<a href="http://nsf.gov/awardsearch/showAward.do?AwardNumber=0545904"
+	  >Grant No. 0545904</a> (September 1, 2006 &#8211; August 31, 2011).
+	CAREER: Cohomological Methods in Algebraic Geometry and Number Theory. Resulted in some
+	{{ sage }} development, including Coleman integration on hyperelliptic curves.
+      </li>
+
+   <li><a href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0838212">Grant No. 0838212</a>
+    (June 1, 2009 &#8211; May 31, 2014 (Estimated)). The {{ sage }} project has received support from this grant.
+   </li>
+
+   <li><a href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0757627">Grant No. 0757627</a>
+   (July 1, 2008 &#8211; June 30, 2010 (Estimated)). The {{ sage }} project has received support from this grant.
+   </li>
+
+   <li><a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1147802">Grant No. 1147802</a>
+    (2012 &mdash; 2015) Collaborative Research: SI2-SSE: Sage-combinat: Developing and Sharing
+    Open Source Software for Algebraic Combinatorics</li>
+
+   <li><a href=" http://www.nsf.gov/awardsearch/showAward?AWD_ID=1147247">Grant No. 1147247</a>
+    (2012 &mdash; 2016) Collaborative Research: SI2-SSE: Sage-combinat:Developing and Sharing Open Source Software for Algebraic Combinatorics</li>
+
+    </ul>
+  </li>
+
+  <li><strong>European Research Council</strong>
+    <ul>
+      <li><a href="http://cordis.europa.eu/project/rcn/198334_en.html">H2020 grant &#35;676541</a>
+      (September 2015 &#8211; August 2019)
+      <a href="http://opendreamkit.org/">OpenDreamKit</a>: develop a flexible toolkit enabling research groups
+      to set up Virtual Research Environments</li>
+    </ul>
+  </li>
+
+  <li>
+   <strong>University of Washington</strong>
+
+   <ul>
+    <li> University of Washington's <a href="http://www.washington.edu/research/main.php?page=rrf">Royalty Research Fund (RRF)</a> funded Stein for one year to work on the {{ sage }} Notebook and Symbolic Calculus</li>
+    <li>Department of Mathematics (start-up money)</li>
+
+    <li>six undergraduates have been funded via the NSF VIGRE grant</li>
+
+    <li>Yi Qiang received a Mary Gates Scholarship for work on {{ sage }}.</li>
+   </ul>
+  </li>
+
+  <li><strong><a
+     href="http://www.cs.washington.edu/">UW, Dept. of Computer Science</a></strong>, for providing
+     the {{ sage }} lab (Sieg Hall 312).</li>
+
+  <li><strong>MSRI</strong> – two {{ sage }}-related workshops</li>
+
+  <li><strong>IPAM</strong> – hosted and funded {{ sage }} Days 3 and {{ sage }} Days 7.</li>
+
+  <li>
+    <a href="http://www.claymath.org/workshops/cag/">{{ sage }} Days 5</a>, September 30 &#8211; October 3, 2007
+    <ul>
+      <li>funded and hosted by Clay Mathematics Institute</li>
+    </ul>
+  </li>
+
+  <li>
+   <a href="http://wiki.sagemath.org/days10">{{ sage }} Days 10</a>
+   <ul>
+    <li><a href="http://www.lorraine.eu"
+      >Conseil Régional, Université Lorraine</a></li>
+
+    <li><a href="http://www.grand-nancy.org/"
+      >Communauté Urbaine du Grand Nancy</a></li>
+
+    <li><a class="http"
+       href="http://www.uhp-nancy.fr/"
+      >University Nancy 1 Henri Poincaré</a></li>
+
+    <li><a class="http"
+       href="http://www.inria.fr/"
+      >INRIA</a></li>
+
+    <li><a class="http"
+       href="http://www.gdr-im.fr/"
+      >GDR IM</a></li>
+   </ul>
+  </li>
+
+  <li>
+    <a href="http://www.claymath.org/workshops/sage/">{{ sage }} Days 18</a>, December 1 &#8211; 5, 2009
+    <ul>
+      <li>funded and hosted by Clay Mathematics Institute</li>
+      <li>{{ sage }} Education Day 1, December 5, 2009: funded by MIT and hosted by Clay Mathematics Institute</li>
+    </ul>
+  </li>
+
+  <li>
+    <a href="http://wiki.sagemath.org/daysmarseille">{{ sage }} Days 20</a>
+    <ul>
+      <li><a href="http://www.aixmarseille-universite.fr">Universit&eacute;s Aix-Marseille</a>:
+	<a href="http://www.univ-provence.fr">I</a>,
+	<a href="http://www.univmed.fr">II</a>,
+	<a href="http://www.univ-cezanne.fr">III</a></li>
+      <li><a href="http://www.cirm.univ-mrs.fr">CIRM</a>:
+	Centre International de Rencontres Math&eacute;matiques</li>
+      <li><a href="http://frumam.cnrs-mrs.fr">FRUMAM</a>:
+	F&eacute;d&eacute;ration de Recherche des Unit&eacute;s de Math&eacute;matiques de Marseille</li>
+      <li><a href="http://www.lif.univ-mrs.fr">LIF</a>:
+	Laboratoire d'Informatique Fondamentale de Marseille</li>
+      <li><a href="http://www.cg13.fr">Conseil G&eacute;n&eacute;ral des Bouches-du-Rh&ocirc;ne</a></li>
+      <li><a href="http://www.mairie-marseille.fr">Ville de Marseille</a></li>
+      <li>Programme Acc&egrave;s</li>
+      <li><a href="http://www.cnrs.fr">CNRS</a>:
+	Centre National de la Recherche Scientifique, in particular by
+	the "formation permanente du CNRS"</li>
+    </ul>
+  </li>
+
+  <li>
+    <a href="http://wiki.sagemath.org/daysff">{{ sage }} Days 21</a>
+    <ul>
+      <li><a href="http://www.nsf.gov">National Science Foundation</a></li>
+      <li><a href="http://www.pims.math.ca">Pacific Institute for the Mathematical Sciences</a></li>
+    </ul>
+  </li>
+
+  <li>
+    <a href="http://wiki.sagemath.org/days22">{{ sage }} Days 22</a>
+    <ul>
+      <li><a href="http://www.msri.org">Mathematical Sciences Research Institute</a></li>
+    </ul>
+  </li>
+
+  <li>
+    <a href="http://wiki.sagemath.org/days23">{{ sage }} Days 23</a>
+    <ul>
+      <li><a href="http://websites.math.leidenuniv.nl/gtem/">GTEM</a> under European Commission contract MRTN-CT-2006-035495</li>
+      <li><a href="http://www.lc.leidenuniv.nl/">Lorentz Center</a></li>
+    </ul>
+  </li>
+
+  <li>
+    <a href="http://wiki.sagemath.org/padicSageDays">{{ sage }} Days 36: p-adics in Sage</a>
+    <ul>
+      <li><a href="http://www.mit.edu/">MIT</a> NEC Fund</li>
+      <li><a href="http://www.ucsd.edu/">UC San Diego</a> Warschawski Chair</li>
+      <li><a href="http://www.pims.math.ca">Pacific Institute for the Mathematical Sciences</a></li>
+    </ul>
+  </li>
+
+  <li>{{ sage }} Days: Multiple Dirichlet Series, Combinatorics, and Representation Theory (February 11 - 15, 2013)
+    <ul><li><a href="http://icerm.brown.edu/sp-s13-w1/">ICERM</a></li></ul>
+
+  <li>Glenn Tarbox — a high-end CUDA development machine and a substantial cash donation</li>
+
+  <li><a href="http://www.sun.com"
+    ><strong>Sun Microsystems</strong></a> — significant hardware discounts</li>
+
+  <li><a href="http://www.metamodul.com/">Metamodul</a>  — access to hardware running AIX</li>
+
+  <li><a href="http://www.blastwave.org">Blastwave.org</a> — providing a complete Solaris build farm for {{ sage }} developers</li>
+
+  <li><a href="http://gcc.gnu.org/wiki/CompileFarm">GCC Compile Farm Project</a> — access to a build farm for {{ sage }} developers</li>
+
+  <li>The Beatrice Yormark Fund for Women in Mathematics &mdash; substantial cash donation</li>
+
+ </ul>
+
+ <h2>Mirror Network Hosting Providers</h2>
+ <div class="txt leftpadding rightpadding"> Distributing {{ sage }} around the globe requires servers on each continent,
+   each capable of transmitting data fast and reliably!
+   <ul>
+     <li><strong>Phillippe Saade</strong> financing "sagemath.fr" mirror.</li>
+     <li><a href="http://www.xmission.com/"> <img src="http://www.xmission.com/assets/images/wiki/banner_mirror.jpg" border=0 alt="phone: 801-539-0852 email: sales@xmission.com"> </a></li>
+     <li><a href="http://mirror.switch.ch/">SWITCHmirror</a></li>
+     <li>... and a huge thank you to
+   <a href="mirrors.html">all other servers in our mirror network</a>!</li>
+   </ul>
+ </div>
+
+
+ <h2>Indirect contributors</h2>
+
+ <div>
+  <ul>
+   <li><strong>Karim Belabas:</strong> extreme help with PARI integration</li>
+
+   <li><strong>John Boyer:</strong> edge addition planarity code</li>
+
+   <li><strong>Timothy Brock:</strong> user feedback</li>
+
+   <li><strong>Henri Cohen:</strong> discussion</li>
+
+   <li><strong>Edray Goins:</strong> Feedback</li>
+
+   <li><strong>Florian Hess:</strong> Feedback</li>
+
+   <li><strong>Lloyd Kilford:</strong> Feedback</li>
+
+   <li><strong>Qing Liu:</strong> genus2reduction</li>
+
+   <li><strong>Stefan Mueller-Stach:</strong> Feedback</li>
+
+   <li><strong>Fernando Perez:</strong> IPython (and helpful feedback, changes, etc.)</li>
+
+   <li><strong>Michael Rubinstein:</strong> lcalc</li>
+
+   <li><strong>Victor Shoup:</strong> NTL library</li>
+
+   <li><strong>Michael Stoll:</strong> Sieving for points (part of mwrank)</li>
+
+   <li><strong>Frank Lubeck:</strong> <a
+      href="http://www.math.rwth-aachen.de:8001/%7EFrank.Luebeck/data/ConwayPol/index.html">Conway
+      polynomials</a></li>
+
+   <li><a
+      href="http://mpfr.org/credit.html">MPFR Authors</a></li>
+
+   <li>GMP Authors</li>
+
+   <li><a
+      href="http://www-groups.dcs.st-and.ac.uk/%7Egap/Contacts/People/authors.html">GAP
+      Authors</a></li>
+
+   <li><a
+      href="http://www.singular.uni-kl.de/team.html">Singular Authors</a></li>
+
+   <li><a
+      href="http://pari.math.u-bordeaux.fr/AUTHORS">PARI Authors</a></li>
+
+   <li><a
+      href="http://maxima.sourceforge.net/faq/faq.html#General4">Maxima Authors</a></li>
+
+   <li><a href="http://mupad-combinat.sourceforge.net/"
+     >MuPAD-Combinat developers</a></li>
+
+   <li><a href="http://www.mathe2.uni-bayreuth.de/axel/symneu_engl.html"
+     >Symmetrica developers</a></li>
+  </ul>
+ </div>
+
+ <div class="center">
+  Please <a href= "{{ git_website }}">open a ticket</a> if we fail to acknowledge anybody&#39;s contributions!
+ </div>

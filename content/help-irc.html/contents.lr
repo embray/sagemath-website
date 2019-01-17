@@ -1,0 +1,25 @@
+title: Help IRC
+---
+content:
+
+
+ <h1 class="narrow">{{ sage }} IRC Help Channel</h1>
+
+ <div class="narrow txt padding">
+  This IRC chatroom is the main discussion room for the {{ sage }} Mathematical Software System.
+  (Sorry, it's not for general math questions, that would be <a href="irc://irc.freenode.net/#math">#math</a>)<br/>
+  If you want to connect directly with your preferred IRC client: <a href="irc://irc.freenode.net/#sagemath">#sagemath is
+  on irc.freenode.net</a>
+ </div>
+
+<div class="center txt">
+<iframe style="border: 0;" src="http://webchat.freenode.net?channels=math,sagemath&uio=OT10cnVlJjExPTI0Ng32" width="750" height="500"></iframe>
+</div>
+
+<!--
+ <div class="center narrow padding">
+  <strong><a
+     href="./help-irc-client.html">Start IRC Java Client</a></strong>
+ </div>
+-->
+

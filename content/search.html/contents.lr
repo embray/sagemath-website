@@ -1,0 +1,23 @@
+title: Search
+---
+header:
+
+<link rel="canonical" href="search.html" />
+---
+content:
+
+  <h1 class="center">Search {{ sage }} Resources</h1>
+     <div class="narrow">
+         <script>
+      (function() {
+        var cx = '017384562579735769466:s27byrlaffu';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <gcse:search></gcse:search>
+  </div>
