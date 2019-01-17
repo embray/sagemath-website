@@ -1,8 +1,10 @@
-{% extends 'download-tmpl.html' %}
-{% set title = "Download Binaries for Solaris" %}
-{% from "mirrorselector.html" import mirrors %}
+_template: download-tmpl.html
+---
+_title: Download Binaries for Solaris
+---
+content:
 
-{% block content %}
+{% from "mirrorselector.html" import mirrors %}
  <h1 class="narrow">Download Binaries for Solaris</h1>
 
  <div class="narrow txt small">
@@ -58,5 +60,3 @@ You can try  <a href="http://t2nb.math.washington.edu:8000/">{{ sage }} on a Sun
 This was kindly donated by Sun to the {{ sage }} project.  
 </div>
 -->
-
-{% endblock %}
