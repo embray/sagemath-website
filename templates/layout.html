@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head profile="http://a9.com/-/spec/opensearch/1.1/">
+{%- block head -%}
  <title>
   {%- set title = title|default("Open-Source Mathematical Software System") -%}
   {%block title -%}{{ sage }} - {{ title }}{%- endblock %}
@@ -28,6 +29,9 @@
  <meta property="og:site_name" content="{{ sage }} Mathematical Software System"/>
  <meta property="og:description" content="{{ sage }} is a free and open-source mathematical software system."/>
  {%- block header -%}
+ {# This block is just for additional head extensions that can be inserted by #}
+ {# pages after the normal <head> tags                                        #}
+ {%- endblock -%}
  {%- endblock -%}
 </head>
 

@@ -1,9 +1,9 @@
-{% extends 'base.html' %}
-{% set title = "404 Error" %}
+_template: error.html
+---
+title: 404 Error
+---
+header:
 
-{% block header %}
-{# repeat CSS absolute, because it could happen in arbitrary subdirectories! #}
-<link href='http://www.sagemath.org/res/sage.css' type="text/css" rel="stylesheet" />
 <style type="text/css">
 input.c1 {font-size:85%;vertical-align:middle;}
 </style>
@@ -15,17 +15,16 @@ input.c1 {font-size:85%;vertical-align:middle;}
 #goog-wm ul li { }
 #goog-wm li.search-goog { display: block; }
 </style>
-{% endblock %}
+---
+content:
 
-
-{% block content %}
 <h1 class="narrow">404 Error: page not found</h1>
 
  <div class="narrow">
   Requested page could not be found.
 <script type="text/javascript">
   var GOOG_FIXURL_LANG = 'en';
-  var GOOG_FIXURL_SITE = 'http://www.sagemath.org/';
+  var GOOG_FIXURL_SITE = '{{ config.PROJECT.url }}';
 </script>
 <script type="text/javascript"
      src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js">
@@ -53,4 +52,3 @@ input.c1 {font-size:85%;vertical-align:middle;}
    </li>
   </ul>
  </div>
-{% endblock %}
