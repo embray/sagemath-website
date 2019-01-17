@@ -1,7 +1,7 @@
-{% extends 'base.html' %}
-{% set title = "CoCalc" %}
+title: CoCalc
+---
+content:
 
-{% block content %}
 <div class="narrow">
 <h1>CoCalc</h1>
 
@@ -36,4 +36,3 @@ When you open them, they'll be converted to SageWorksheets.
 </div>
 
 </div>
-{% endblock %}
