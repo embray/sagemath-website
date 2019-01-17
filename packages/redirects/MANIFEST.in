@@ -1,0 +1,1 @@
+include lektor_redirects/templates/*.html
