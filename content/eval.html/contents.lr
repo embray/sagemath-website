@@ -1,8 +1,7 @@
-{% extends 'base.html' %}
-{% set title = "Cell Server" %}
+title: Cell Server
+---
+header:
 
-
-{% block header %}
 <script type="text/javascript" src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
 <script type="text/javascript" src="http://sagecell.sagemath.org/embedded_sagecell.js"></script>
 <script type="text/javascript" src="./eval/eval.js"></script>
@@ -31,9 +30,9 @@
 #db span.loading { font-style: italic; color: grey; }
 #db-descr { min-height: 35px; font-size: 90%; }
 </style>
-{% endblock %}
+---
+content:
 
-{% block content %}
 <h1>{{ sage }} Cell Server</h1>
 
 <div class="bodypadding txt">
@@ -87,4 +86,3 @@ located in  e.g.
 <a href="./eval/db1.json">./eval/db1.json</a> 
 and mail it to the  <a href="./contact.html">webmaster</a>!
 </div>
-{% endblock %}
