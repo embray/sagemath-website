@@ -10,23 +10,6 @@ import yaml
 from lektor.pluginsystem import Plugin
 
 
-@jinja2.contextfilter
-def filter_prefix(ctx, link):
-    """
-    Prepend level-times "../" to the given string.
-
-    Used to go up in the directory hierarchy.  Yes, one could also do absolute
-    paths, but then it is harder to debug locally!
-    """
-
-    level = ctx.get('level', 0)
-    if level == 0:
-        return link
-    path = ['..'] * level
-    path.append(link)
-    return '/'.join(path)
-
-
 _MARKDOWN = markdown.Markdown()
 
 @jinja2.evalcontextfilter
@@ -68,6 +51,5 @@ class SageWebsitePlugin(Plugin):
         # Insert a few additional Jinja filters that are used by the old
         # templates
         self.env.jinja_env.filters.update({
-            'prefix': filter_prefix,
             'markdown': filter_markdown
         })
