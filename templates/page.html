@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-{% set title = this.title %}
+{% set title = this.title | default("Open-Source Mathematical Software System") %}
 {% block header %}
 {{ this.header }}
 {% endblock %}
