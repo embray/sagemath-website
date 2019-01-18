@@ -27,11 +27,16 @@ var calctut = {
 	
 	refreshIndex: function() {
 		var curpage = location.href.substring(location.href.lastIndexOf("\/")+1);
-		for(var i = 0; i < calctut.pages.length; i ++) {
-			if(curpage == calctut.pages[i]) {
-			   calctut.index = i;
-			}
-		}
+        if (curpage.length == 0) {
+            // We're just at /calctut/ instead of /calctut/index.html
+            calctut.index = 0;
+        } else {
+            for(var i = 0; i < calctut.pages.length; i ++) {
+                if(curpage == calctut.pages[i]) {
+                   calctut.index = i;
+                }
+            }
+        }
 	},
 	
 	updateTitle: function() {
