@@ -1,7 +1,8 @@
-{% extends "calctut/_calctut.html" %}
-{%- set title =  "Tangent Lines" -%}
+title: Tangent Lines
+---
+content:
 
-{% block content %}
+{% from "calctut-macros.html" import cocalc %}
  <div id="calctut" class="narrow txt">
   <h1>Tangent Lines</h1>
   {{ cocalc('07-tangent') }}
@@ -245,4 +246,3 @@ var('x, h')
   <a id="answer3" href="javascript:void(0);" onclick="calctut.ansToggle(3, 'The limit process yields a slope of -1/5; tangent line of y = -x/5+5.');">Toggle answer</a>
   </div>
  </div>
-{% endblock %}

@@ -1,7 +1,8 @@
-{% extends "calctut/_calctut.html" %}
-{%- set title =  "Review" -%}
+title: Review
+---
+content:
 
-{% block content %}
+{% from "calctut-macros.html" import cocalc %}
  <div id="calctut" class="narrow txt">
   <h1>Pre-Calculus and Trigonometry Review</h1>
   {{ cocalc('01-review') }}
@@ -189,4 +190,3 @@ plot(m*f(n*(x-a))+b, x, -10, 10).show(ymin=-10, ymax=10)
   </p>
 
  </div>
-{% endblock %}

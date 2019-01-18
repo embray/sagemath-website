@@ -1,7 +1,8 @@
-{% extends "calctut/_calctut.html" %}
-{%- set title =  "Supplement: Slant Asymptotes" -%}
+title: Supplement: Slant Asymptotes
+---
+content:
 
-{% block content %}
+{% from "calctut-macros.html" import cocalc %}
  <div id="calctut" class="narrow txt">
   <h1>Slant (Oblique) Asymptotes</h1>
   {{ cocalc('06-slantasymp') }}
@@ -95,4 +96,3 @@ limit(f(x)-f(x-1), x=oo)
   3) Hint: simplify first. <img class="vmiddle qimg" src="calctut-pix/slantasymp05.png" />&nbsp;&nbsp;&nbsp;&nbsp;<a id="answer3" href="javascript:void(0);" onclick="calctut.ansToggle(3, 'Slant asymptote with slope 2 at &plusmn;oo.');">Toggle answer</a>
   </div>
  </div>
-{% endblock %}

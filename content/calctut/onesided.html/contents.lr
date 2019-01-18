@@ -1,7 +1,8 @@
-{% extends "calctut/_calctut.html" %}
-{%- set title =  "One-Sided Limits" -%}
+title: One-Sided Limits
+---
+content:
 
-{% block content %}
+{% from "calctut-macros.html" import cocalc %}
  <div id="calctut" class="narrow txt">
   <h1>One-Sided Limits</h1>
   {{ cocalc('04-one-sided-limits') }}
@@ -96,4 +97,3 @@ plot(1/x, x, -6, 6, randomize=False).show(ymin=-5, ymax=5, xmin=-5, xmax=5)
   (c) <a id="answer3" href="javascript:void(0);" onclick="calctut.ansToggle(3, 'The discontinuity at x=2 is removable; the discontinuities at x=-3 and x=-1 are not.');">Toggle answer</a>
   </div>
  </div>
-{% endblock %}

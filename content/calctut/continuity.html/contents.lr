@@ -1,7 +1,10 @@
-{% extends "calctut/_calctut.html" %}
-{%- set title =  "Continuity" -%}
+_template: calctut.html
+---
+title: Continuity
+---
+content:
 
-{% block content %}
+{% from "calctut-macros.html" import cocalc %}
  <div id="calctut" class="narrow txt">
   <h1>Continuity</h1>
   {{ cocalc('03-continuity') }}
@@ -203,16 +206,5 @@ solve(x^2-4*x+4==0, x)
   sign signifies assignment. For example, x==1 means 'does x equal 1?' whereas
   x=1 means 'assign 1 to x'.
   </div>
-  <table id="bottomnav">
-  <tr>
-  <script type="text/javascript">
-  <!--
-  calctut.writePreviousPage();
-  calctut.writeNextPage();
-  //-->
-  </script>
-  </tr>
-  </table>
  </div>
 </div>
-{% endblock %}

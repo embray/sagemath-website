@@ -1,8 +1,8 @@
-{% extends "calctut/_calctut.html" %}
-{%- set title =  "Differentiation Rules" -%}
+title: Differentiation Rules
+---
+content:
 
-
-{% block content %}
+{% from "calctut-macros.html" import cocalc %}
  <div id="calctut" class="narrow txt">
   <h1>The Rules of Differentiation</h1>
   {{ cocalc('10-diffrules') }}
@@ -40,4 +40,3 @@
   <img src="calctut-pix/diffrules09.png" />
   </div>
  </div>
-{% endblock %}

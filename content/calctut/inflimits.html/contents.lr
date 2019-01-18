@@ -1,8 +1,8 @@
-{% extends "calctut/_calctut.html" %}
-{%- set title =  "Limits at Infinity" -%}
+title: Limits at Infinity
+---
+content:
 
-
-{% block content %}
+{% from "calctut-macros.html" import cocalc %}
  <div id="calctut" class="narrow txt">
   <h1>Limits at Infinity</h1>
   {{ cocalc('05-inflimits') }}
@@ -239,4 +239,3 @@ table()
   3) <img class="vmiddle qimg" src="calctut-pix/inflimits24.png" />&nbsp;&nbsp;&nbsp;&nbsp;<a id="answer3" href="javascript:void(0);" onclick="calctut.ansToggle(3, 'The limit of h(x) as x approaches -oo is -1; the limit of h(x) as x approaches oo is 3. Do you see why? Think about the effect that the square root under the radical has on the sign of the rational expression.');">Toggle answer</a>
   </div>
  </div>
-{% endblock %}

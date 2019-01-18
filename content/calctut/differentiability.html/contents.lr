@@ -1,8 +1,8 @@
-{% extends "calctut/_calctut.html" %}
-{%- set title =  "Differentiability" -%}
+title: Differentiability
+---
+content:
 
-
-{% block content %}
+{% from "calctut-macros.html" import cocalc %}
  <div id="calctut" class="narrow txt">
   <h1>Differentiability</h1>
   {{ cocalc('09-differentiability') }}
@@ -281,5 +281,3 @@ point((1, ln(1)+2), rgbcolor='black').show()
   <a id="answer6" href="javascript:void(0);" onclick="calctut.ansToggle(6, 'By the Mean Value Theorem, there exists a c in (0, 4) such that (f(4)-f(0))/(4-0) = f\'(c). Thus f(4)-f(0) = f\'(c)*4, 5-1 = f\'(c)*4, and 0 = f\'(c). Since f\'(c) is necessarily less than 1, the statement does not hold and therefore f(4) cannot equal 5.');">Toggle answer</a>
   </div>
  </div>
-
-{% endblock %}
