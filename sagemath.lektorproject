@@ -24,3 +24,8 @@ locale = es
 name[fr] = Français
 url_prefix = /fr/
 locale = fr
+
+[alternatives.pt]
+name[pt] = Português
+url_prefix = /pt/
+locale = pt

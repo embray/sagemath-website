@@ -1,20 +1,7 @@
-{% extends 'base.html' %}
-{% set title = "Portuguese" %}
+title: Português
+---
+content:
 
-{% block logo_title %}
-<a href="./index.html">Português</a>
-{% endblock %}
-
-{% block header_text %}
-<a href="{{ 'index.html'|prefix }}">back to {{ sage }} main page</a>
-{% endblock %}
-
-{% block menu %}
-<li id="intro"><a href="./index.html" title="">Index</a></li>
-{% endblock %}
-
-
-{% block content %}
 <div class="narrow" style="margin-top: 2em;">
 
 <h1>O que é {{ sage }}?</h1>
@@ -54,4 +41,3 @@ proprietário onde o usuário desconhece os algoritmos usados pelo programa.</p>
 
 
 </div>
-{% endblock %}
