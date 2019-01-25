@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+{%- set lang = config.ALTERNATIVES and alt or 'en' %}
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ lang }}" xml:lang="{{ lang }}">
 <head profile="http://a9.com/-/spec/opensearch/1.1/">
 {%- block head -%}
  <title>
@@ -86,19 +87,20 @@ or
     <img alt="F" src="{{ "/pix/facebook-favicon.ico" | asseturl }}" width="16" height="16" /></a>
 <a href="https://twitter.com/sagemath">
     <img alt="T" src="{{ "/pix/twitter-favicon.ico" | asseturl }}" width="16" height="16"/></a>
+{% if config.ALTERNATIVES %}
 <strong>&middot;</strong>
 <form name="i18n" style="display:inline">
 <select style="" name="menu" onChange="location='/' + document.i18n.menu.options[document.i18n.menu.selectedIndex].value;">
-<option>Language</option>
-<option value="">English</option>
-<option value="es">Español</option>
-<option value="zh">中文</option>
-<option value="fr">Français</option>
-<option value="de">Deutsch</option>
-<option value="pt">Português</option>
-<option value="ru">русский язык</option>
+<option disabled>Language</option>
+<option value=""{{ ' selected' if alt == 'en' }}>English</option>
+{% for alt_code, alt_data in config.ALTERNATIVES.items() %}
+{% if not alt_data.primary %}
+<option value="{{ alt_code }}"{{ ' selected' if alt_code == alt }}>{{ alt_data.name[alt_code] }}</option>
+{% endif %}
+{% endfor %}
 </select>
 </form>
+{% endif %}
 {%- endblock -%}
 </div>
 

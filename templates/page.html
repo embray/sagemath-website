@@ -1,5 +1,15 @@
-{% extends "layout.html" %}
-{% set title = this.title | default("Open-Source Mathematical Software System") %}
+{#- a dope little trick I came up with to support optional           #}
+{#- per-localization template customizations                         #}
+{%- set i18n_template = "i18n/" + alt + ".html" -%}
+{%- if not config.ALTERNATIVES or config.ALTERNATIVES[alt].primary -%}
+{%- extends "layout.html" -%}
+{% elif i18n_template is existing_template %}
+{%- extends i18n_template -%}
+{% else %}
+{%- extends "i18n/i18n.html" -%}
+{%- endif -%}
+
+{%- set title = this.title | default("Open-Source Mathematical Software System") -%}
 {% block header %}
 {{ this.header }}
 {% endblock %}

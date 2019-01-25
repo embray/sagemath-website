@@ -12,6 +12,7 @@ from lektor.pluginsystem import Plugin
 
 _MARKDOWN = markdown.Markdown()
 
+
 @jinja2.evalcontextfilter
 def filter_markdown(eval_ctx, text):
     if eval_ctx.autoescape:
@@ -53,3 +54,13 @@ class SageWebsitePlugin(Plugin):
         self.env.jinja_env.filters.update({
             'markdown': filter_markdown
         })
+
+        def existing_template(template, env=self.env.jinja_env):
+            try:
+                env.loader.get_source(env, template)
+            except jinja2.TemplateNotFound:
+                return False
+
+            return True
+
+        self.env.jinja_env.tests['existing_template'] = existing_template

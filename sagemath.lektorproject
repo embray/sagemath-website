@@ -4,3 +4,13 @@ url = https://www.sagemath.org
 
 [packages]
 lektor-jinja-content = 0.4.2
+
+[alternatives.en]
+name = English
+primary = yes
+locale = en
+
+[alternatives.de]
+name[de] = Deutsch
+url_prefix = /de/
+locale = de

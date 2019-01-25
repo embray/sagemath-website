@@ -1,24 +1,12 @@
-{% extends 'base.html' %}
-{% set title = "Deutsch" %}
+title: Deutsch
+---
+header:
 
-{% block logo_title %}
-<a href="./index.html">Deutsch</a>
-{% endblock %}
-
-{% block header_text %}
-<a href="{{ 'index.html'|prefix }}">back to {{ sage }} main page</a>
-{% endblock %}
-
-{% block menu %}
-<li id="intro"><a href="./index.html" title="">Index</a></li>
-{% endblock %}
-
-{% block header %}
 <meta name="keywords"
  content="sage, sagemath, sagemaths, sage math, open source, open-source, opensource, quelloffen, gpl, software, mathematik, cas, computer algebra system, python, kryptographie, numerische berechnungen, algebra, gruppentheorie, kombinatorik, graphentheorie, analysis, zahlentheorie, wissenschaftliches rechnen, interaktive mathematik, mathematica alternative, gruppen, endliche körper, fortschrittliche mathematische software, opensource mathematik, kostenlose mathematik software, freie mathehmatik software, mathematik programm, gratis mathematik software, gratis mathematik programm" />
-{% endblock %}
+---
+content:
 
-{% block content %}
 
  <h1 class="narrow">{{ sage }} Deutsch</h1>
 
@@ -59,12 +47,11 @@ Unser Ziel: <em>Erstellen eines vollwertigen open-source Ersatzes für Magma, Ma
 
 <li>Englisch:
 <ul>
-<li><a href="{{ 'download.html'|prefix }}">Download</a></li>
+<li><a href="{{ '/download.html' | url }}">Download</a></li>
 <li><a href="{{ docroot }}">Dokumentation (en)</a></li>
 </ul>
 </li>
 </ul>
 </div>
 
- </div>
-{% endblock %}
+</div>

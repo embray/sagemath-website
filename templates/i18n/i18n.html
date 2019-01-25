@@ -1,0 +1,13 @@
+{%- extends "layout.html" -%}
+{# Allow per-locale template overrides #}
+{% block logo_title %}
+<a href="{{ '/' | url(alt=alt) }}">{{ config.ALTERNATIVES[alt].name[alt] }}</a>
+{% endblock %}
+
+{% block header_text %}
+<a href="{{ '/' | url(alt=config.PRIMARY_ALTERNATIVE) }}">back to {{ sage }} main page</a>
+{% endblock %}
+
+{% block menu %}
+<li id="intro"><a href="{{ '/' | url(alt=alt) }}" title="">Index</a></li>
+{% endblock %}
