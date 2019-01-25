@@ -34,3 +34,8 @@ locale = pt
 name[ru] = русский язык
 url_prefix = /ru/
 locale = ru
+
+[alternatives.zh]
+name[zh] = 中文
+url_prefix = /zh/
+locale = zh

@@ -1,20 +1,7 @@
-{% extends 'base.html' %}
-{% set title = "中文" %}
+title: 中文
+---
+content:
 
-{% block logo_title %}
-<a href="./index.html">中文</a>
-{% endblock %}
-
-{% block header_text %}
-<a href="{{ 'index.html'|prefix }}">back to {{ sage }} main page</a>
-{% endblock %}
-
-{% block menu %}
-<li id="intro"><a href="./index.html">Index</a></li>
-{% endblock %}
-
-
-{% block content %}
  <h1 class="narrow">{{ sage }} 中文</h1>
 
  <div class="narrow">
@@ -41,4 +28,3 @@ href="{{ docroot }}">文档 (英文)</a>
 
 
 </div>
-{% endblock %}
