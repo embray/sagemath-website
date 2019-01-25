@@ -29,3 +29,8 @@ locale = fr
 name[pt] = Português
 url_prefix = /pt/
 locale = pt
+
+[alternatives.ru]
+name[ru] = русский язык
+url_prefix = /ru/
+locale = ru

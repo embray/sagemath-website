@@ -1,23 +1,6 @@
-{% extends 'base.html' %}
-{% set title = "русский" %}
-
-{% block logo_title %}
-<a href="./index.html">русский</a>
-{% endblock %}
-
-{% block header_text %}
-<a href="{{ 'index.html'|prefix }}">back to {{ sage }} main page</a>
-{% endblock %}
-
-{% block menu %}
-<li id="intro"><a href="./index.html" title="">Index</a></li>
-<li id="documentation"><a href="{{ docroot }}" title="">Documentation</a></li>
-<li id="pdf"><a href="{{ docroot }}/html/ru/tutorial/" title="">Tutorial</a></li>
-<li id="pdf"><a href="{{ docroot }}/pdf/ru/tutorial/SageTutorial_ru.pdf" title="">PDF</a></li>
-{% endblock %}
-
-
-{% block content %}
+title: русский
+---
+content:
 
 <div class="narrow" style="margin-top: 2em;">
 
@@ -90,4 +73,3 @@ WIDTH="800" HEIGHT="500" ShowControls="1" ShowStatusBar="0" ShowDisplay="0" auto
 </div>
 
 </div>
-{% endblock %}
