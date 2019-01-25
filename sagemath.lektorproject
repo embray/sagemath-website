@@ -14,3 +14,8 @@ locale = en
 name[de] = Deutsch
 url_prefix = /de/
 locale = de
+
+[alternatives.es]
+name[es] = Español
+url_prefix = /es/
+locale = es
