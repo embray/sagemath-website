@@ -1,7 +1,11 @@
-{% extends 'fr/_fr.html' %}
-{% set title = 'Tracer des courbes paramétrées avec {{ sage }}' %}
+_slug: 48/w_ue_courbes_parametrees_v02.html
+---
+redirects: W_UE_Courbes_paramétrées_v02.html
+---
+title: Tracer des courbes paramétrées avec {{ sage }}
+---
+content:
 
-{% block content %}
 <h1 align="center">Tracer des courbes paramétrées avec {{ sage }}
 </h1>
 <h3 align="center" style="font-size: 0.6em">auteur : Philippe Saadé (2008), psaade@gmail.com
@@ -384,5 +388,3 @@ C'est ce que l'on peut constater dans cet exemple.
    </tr>
 </tbody>
 </table>
-
-{% endblock %}

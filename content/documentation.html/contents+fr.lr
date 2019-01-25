@@ -1,7 +1,7 @@
-{% extends 'fr/_fr.html' %}
-{% set title = 'Documentation' %}
+title: Documentation
+---
+content:
 
-{% block content %}
  <h1 class="narrow">Documentation</h1> 
  
  <div class="narrow">
@@ -32,4 +32,3 @@
 </div> 
  </div>
 </div>
-{% endblock %}

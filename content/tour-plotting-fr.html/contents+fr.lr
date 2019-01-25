@@ -1,7 +1,7 @@
-{% extends 'fr/_fr.html' %}
-{% set title = "Désignation d'une fonction" %}
+title: Désignation d'une fonction
+---
+content:
 
-{% block content %}
 <h1>Désignation d'une fonction</h1>
 
 <div class="bodypadding">
@@ -642,4 +642,3 @@ TypeError: 'tuple' object is not callable
 
 </tbody>
 </table>
-{% endblock %}

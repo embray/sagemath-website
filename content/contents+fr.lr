@@ -1,7 +1,7 @@
-{% extends 'fr/_fr.html' %}
-{% set title = 'Français' %}
+title: Français
+---
+content:
 
-{% block content %}
  <h1 class="narrow">{{ sage }} Français</h1>
 
  <div class="narrow">
@@ -64,4 +64,3 @@ Voir aussi le livre électronique en français
  </div>
 
  </div>
-{% endblock %}

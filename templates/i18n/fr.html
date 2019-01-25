@@ -1,0 +1,19 @@
+{%- extends "i18n/i18n.html" -%}
+{% block header %}
+<style>
+div.explanation {float: right; clear: right; margin-left: 51%;}
+div.explanation_centered {clear: both; padding-left: 15px; padding-right: 15px;}
+p.explanation {float: right; clear: right; width: 49%; padding-left: 15px;}
+p.explanation_centered {clear: both; width: 100%; padding-left: 15px; padding-right: 15px;}
+div.cell {float: left; clear: left; margin-right: -51%; padding-left: 15px;}
+h1, h3 {clear: both;}
+h3 {margin-top: 50px;}
+</style>
+{% endblock %}
+
+{% block menu %}
+<li id="intro"><a href="{{ '/' | url(alt=alt) }}">Index</a></li>
+<li id="plotting"><a href="{{ '/download.html' | url(alt=alt) }}">Télécharger</a></li>
+<li id="documentation"><a href="{{ '/documentation.html' | url(alt=alt) }}">Documentation</a></li>
+<li id="components"><a href="{{ '/components.html' | url(alt=alt) }}">Components</a></li>
+{% endblock %}

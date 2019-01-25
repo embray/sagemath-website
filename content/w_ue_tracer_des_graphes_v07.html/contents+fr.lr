@@ -1,7 +1,11 @@
-{% extends 'fr/_fr.html' %}
-{% set title = 'Tracer des graphes de fonctions avec {{ sage }}' %}
+_slug: 62/w_ue_tracer_des_graphes_v07_.html
+---
+redirects: W_UE_Tracer_des_graphes_v07.html
+---
+title: Tracer des graphes de fonctions avec {{ sage }}
+---
+content:
 
-{% block content %}
 <h1 align="center">Tracer des graphes de fonctions avec {{ sage }}
 </h1>
 <h3 align="center" style="font-size: 0.6em">auteur : Philippe Saadé (2008), psaade@gmail.com
@@ -853,5 +857,3 @@ Ici, il est possible de fournir la couleur par son nom (en anglais et entre '...
 
 </tbody>
 </table>
-
-{% endblock %}

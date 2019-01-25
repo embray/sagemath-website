@@ -1,7 +1,11 @@
-{% extends 'fr/_fr.html' %}
-{% set title = 'Utilisation avancée des objets graphiques' %}
+_slug: 55/w_ue_Graphiques_utilisation_avancee_v04.html
+---
+redirects: W_UE_Graphiques_Utilisation_avancée_v04.html
+---
+title: Utilisation avancée des objets graphiques
+---
+content:
 
-{% block content %}
 <h1 align="center">Utilisation avancée des objets graphiques
 </h1>
 <h3 align="center" style ="font-size: 0.6em">auteur : Philippe Saadé (2008), psaade@gmail.com
@@ -812,4 +816,3 @@ We have $2006 = \sage{factor(2006)}$.
 <td><a id="footer-rss" title="RSS News Feed" href="http://groups.google.com/group/sage-announce/feed/atom_v1_0_msgs.xml"></a></td>
 </tr></tbody></table>
 </div>
-{% endblock %}

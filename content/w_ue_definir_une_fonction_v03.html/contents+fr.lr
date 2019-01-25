@@ -1,7 +1,16 @@
-{% extends 'fr/_fr.html' %}
-{% set title = 'Définir une fonction dans {{ sage }}' %}
+_comment:
 
-{% block content %}
+This has to use a different slug from its old URL since it otherwise runs afoul
+on case-insensitive filesystems
+---
+_slug: 61/w_ue_definir_une_fonction_v03_.html
+---
+redirects: W_UE_Definir_une_fonction_v03.html
+---
+title: Définir une fonction dans {{ sage }}
+---
+content:
+
 <h1>Définir une fonction dans {{ sage }}
 </h1>
 
@@ -636,4 +645,3 @@ Plan :
 
 </tbody>
 </table>
-{% endblock %}

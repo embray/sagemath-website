@@ -1,0 +1,17 @@
+_slug: telecharger.html
+---
+title: Télécharger
+---
+content:
+
+ <h1 class="narrow">Télécharger {{ sage }}</h1>
+
+ <div class="narrow">
+
+
+<div class="txt"><a href="{{ '/download-linux.html' | url }}">Binaires Linux</div>
+<div class="txt"><a href="{{ '/download.html' | url }}">Binaires (autres OS : Windows, Max OS X, Solaris, ...)</div>
+<div class="txt"><a href="{{ '/download-source.html' | url }}">Sources</div>
+<div class="txt"><a href="{{ '/download-packages.html' | url }}">Packages</div>
+
+</div>

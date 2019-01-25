@@ -19,3 +19,8 @@ locale = de
 name[es] = Español
 url_prefix = /es/
 locale = es
+
+[alternatives.fr]
+name[fr] = Français
+url_prefix = /fr/
+locale = fr
